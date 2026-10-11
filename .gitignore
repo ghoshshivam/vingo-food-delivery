@@ -1,0 +1,16 @@
+# Ignore all .env files in root and any subfolder (backend, frontend, etc.)
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+
+# Ignore dependency folders
+node_modules/
+**/node_modules/
+
+# Ignore build outputs & OS files
+dist/
+build/
+.DS_Store
+*.log
